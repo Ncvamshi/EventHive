@@ -1,0 +1,85 @@
+/* CSS */
+
+/* General Reset */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(135deg, #ffcc00, #f3f4f6);
+  color: #333;
+}
+
+/* Full Page Container */
+.full-page {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
+}
+
+/* Main Content */
+.main-content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-box {
+  background: rgba(255, 255, 255, 0.95);
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  max-width: 500px;
+  width: 100%;
+}
+
+.content-box h1 {
+  font-size: 32px;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.content-box p {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.auth-buttons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.auth-buttons .btn {
+  padding: 15px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.auth-buttons .btn-signup {
+  background: #ffcc00;
+  color: black;
+}
+
+.auth-buttons .btn-signup:hover {
+  background: #e6b800;
+}
+
+.auth-buttons .btn-login {
+  background: black;
+  color: #ffcc00;
+}
+
+.auth-buttons .btn-login:hover {
+  background: #333;
+}

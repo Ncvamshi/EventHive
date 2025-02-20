@@ -1,0 +1,193 @@
+/* 
+body {
+    margin: 0;
+    font-family: "Arial", sans-serif;
+    background-color: #f5f5f5;
+  }
+  
+  .profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f5f5f5;
+    padding: 20px;
+  }
+  
+  
+  .profile-card {
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 600px;
+    position: relative;
+  }
+  
+  
+  .profile-banner {
+    background: linear-gradient(to right, #ffd23f, #ffd23f, #ffd23f);
+    height: 120px;
+    width: 100%;
+  }
+  
+  
+  .profile-details {
+    padding: 20px;
+    text-align: center;
+  }
+  
+
+  .profile-picture {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: -50px auto 10px auto;
+    border: 4px solid white;
+  }
+  
+  .profile-picture img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  
+  .profile-info {
+    margin-bottom: 20px;
+  }
+  
+  .profile-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .profile-title {
+    font-size: 1rem;
+    color: gray;
+    margin: 5px 0;
+  }
+  
+  .profile-location {
+    font-size: 0.9rem;
+    color: #555;
+  }
+  
+  
+  .profile-role {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  .profile-role span {
+    color: #555;
+    font-size: 0.9rem;
+  }
+  
+  .role-btn {
+    background: #f5f5f5;
+    color: black;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 15px;
+    font-size: 0.9rem;
+    cursor: pointer;
+  }
+  
+  
+  .profile-skills {
+    margin: 20px 0;
+    text-align: left;
+  }
+  
+  .profile-skills span {
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .skill-badge {
+    background: #f5f5f5;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    color: black;
+    font-weight: bold;
+  }
+  
+  
+  .profile-actions {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+  }
+  
+  .action-btn {
+    background: black;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    cursor: pointer;
+  }
+  
+  .edit-btn {
+    background: black;
+  }
+  
+  .settings-btn {
+    background: #333;
+  }
+  
+  .action-btn:hover {
+    background: #555;
+  }
+  
+
+  .profile-options {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    text-align: left;
+  }
+  
+  .option-card {
+    background: #f5f5f5;
+    padding: 10px 15px;
+    border-radius: 10px;
+    width: 30%;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .option-card span {
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: black;
+    display: block;
+  }
+  
+  .option-card button {
+    margin-top: 10px;
+    background: none;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    color: #555;
+  }
+  
+  .option-card button:hover {
+    color: black;
+  }
+   */

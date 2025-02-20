@@ -1,0 +1,151 @@
+/* Global Reset */
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+  box-sizing: border-box;
+}
+
+/* Layout: Home Container */
+.home-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+/* Navbar */
+.navbar {
+  left: 0px;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 20px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.nav-left, .nav-right {
+  display: flex;
+  align-items: center;
+}
+
+.nav-left a {
+  margin-right: 20px;
+}
+
+.nav-right {
+  margin-left: auto;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+/* Content Section */
+.content {
+  margin-top: 80px; /* Prevent overlap with navbar */
+  padding: 20px;
+  overflow-y: auto;
+  display: flex;
+  justify-content: center;
+}
+
+/* Event Cards Grid */
+.events-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.event-card {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+}
+
+.event-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.event-rate {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.bookmark-btn {
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.event-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 10px 0;
+}
+
+.event-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px; /* Add space between logo, name, and button */
+}
+
+.event-logo {
+  width: 30px; /* Reduced size */
+  height: 30px; /* Reduced size */
+  object-fit: contain;
+}
+
+.event-company {
+  font-size: 0.9rem;
+  color: #555;
+  flex-grow: 1;
+  text-align: center;
+  margin: 0 10px; /* Add space around the name */
+  white-space: nowrap;
+  overflow: hidden; /* Prevent overflow */
+  text-overflow: ellipsis; /* Truncate long names */
+}
+
+.view-btn {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 6px 10px; /* Reduced size */
+  border-radius: 6px; /* Slightly smaller rounded corners */
+  font-size: 0.8rem; /* Smaller text size */
+  cursor: pointer;
+}
+
+.view-btn:hover {
+  background-color: #333;
+}
+
+.applied-tick {
+  color: green;
+  margin-left: 10px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
