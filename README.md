@@ -6,11 +6,11 @@ EventHive is a full-stack event listing platform where users can browse various 
 ## 🎨 UI Screenshots
 
 ### 🔹 Home Page
-![Home Page](Screenshots/Screenshot from 2025-02-24 20-01-40.png)
+![Home Page](Screenshots/Home.png)
 
 ### 🔹 Add People
-![Add People](Screenshots/Screenshot from 2025-02-24 20-02-04.png)
+![Add People](Screenshots/AddFriend.png)
 
 ### 🔹 Event Details
-![Event Details](Screenshots/Screenshot from 2025-02-24 20-02-13.png)
+![Event Details](Screenshots/Event.png)
 
